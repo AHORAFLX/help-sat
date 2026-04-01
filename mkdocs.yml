@@ -1,0 +1,126 @@
+site_name: SAT
+theme:
+  name: material
+  custom_dir: ./overrides/
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - scheme: darkmode
+      toggle:
+        icon: octicons/sun-16
+        name: Switch to light mode
+  language: es
+  features:
+    - navigation.path
+    - navigation.expand
+    - navigation.sections
+    - navigation.instant
+    - navigation.tracking
+    - navigation.top
+    - search.highlight
+    - search.suggest
+    - content.code.copy
+use_directory_urls: true
+# Your project navigation structure here ↓
+# nav:
+#   - Home: index.md
+#   - GettingStarted:
+#     - QuickStart: GettingStarted/QuickStart.md
+extra:
+  version:
+    provider: mike
+extra_css:
+  # Basic styles for every documentation project
+  ## Basic Structure
+  - stylesheets/custom-colors.css
+  - stylesheets/fh-structural/base.css
+  - stylesheets/fh-structural/code-highlighting.css
+  - stylesheets/fh-structural/css-class-components.css
+  - stylesheets/fh-structural/404-error.css
+  ## Basic components
+  - stylesheets/fh-structural/components/fh-modal.css
+  - stylesheets/fh-structural/components/fh-copy.css
+  - stylesheets/fh-structural/components/fh-namepropagator.css
+  - stylesheets/fh-structural/components/fh-versions.css
+  ## Basic fonts and icons
+  - docs_assets/fh-structural/fonts/flags/flags.css
+  - docs_assets/fh-structural/fonts/flexygo/utils.css
+  - docs_assets/fh-structural/fonts/flexygo/flexygo-icons.css
+
+  # Your project styles files here ↓
+
+extra_javascript:
+  # Basic javascripts for every documentation project
+  ## Basic utilities
+  - javascripts/fh-structural/utils.js
+  ## Basic components
+  - javascripts/fh-structural/components/fh-modal.js
+  - javascripts/fh-structural/components/fh-copy.js
+  - javascripts/fh-structural/components/fh-popover.js
+  - javascripts/fh-structural/components/fh-namepropagator.js
+  - javascripts/fh-structural/components/flx-navbutton.js
+  - javascripts/fh-structural/components/fh-versions.js
+  ## Translation files
+  - javascripts/cultures/default_language.js
+  - javascripts/cultures/es.js
+  - javascripts/cultures/en.js
+
+  # Your project js files here ↓
+
+markdown_extensions:
+  - toc:
+      permalink: true
+      toc_depth: 3
+  - tables
+  - admonition
+  - footnotes
+  - abbr  # Abreviaciones con tooltips
+  - def_list  # Listas de definición
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+      auto_title: true
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.tilde
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.keys  # Marcado de teclado (++ctrl+c++)
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.details  # Admonitions colapsables
+  - attr_list
+  - md_in_html
+plugins:
+  - search
+  - i18n:
+      docs_structure: suffix
+      languages:
+        - locale: es
+          name: Español
+          default: true
+          build: true
+        - locale: en
+          name: English
+          build: true
+  - glightbox:
+      touchNavigation: true
+      loop: false
+      effect: zoom
+      slide_effect: zoom
+      width: 100%
+      height: auto
+      zoomable: true
+      draggable: false
+      skip_classes:
+        - not-zoomable
+        - fh-image-of-title
