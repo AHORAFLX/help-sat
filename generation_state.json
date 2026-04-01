@@ -1,0 +1,150 @@
+{
+  "articles": {
+    "154000130188": {
+      "category_id": "154000119419",
+      "category_name": "SAT by flexygo",
+      "folder_id": "154000308177",
+      "folder_name": "FAQ (SAT)",
+      "last_generated_at": "2026-04-01T13:58:20Z",
+      "path": "docs/SAT by flexygo/FAQ (SAT)/Nivel de compatibilidad de la base de datos.md",
+      "product": "SAT",
+      "source_updated_at": "2024-05-17T08:33:19Z",
+      "title": "Nivel de compatibilidad de la base de datos"
+    },
+    "154000130200": {
+      "category_id": "154000119419",
+      "category_name": "SAT by flexygo",
+      "folder_id": "154000308177",
+      "folder_name": "FAQ (SAT)",
+      "last_generated_at": "2026-04-01T13:58:20Z",
+      "path": "docs/SAT by flexygo/FAQ (SAT)/Compatibilidad del producto Sat by Flexygo con el ERP de Ahora.md",
+      "product": "SAT",
+      "source_updated_at": "2024-02-23T11:49:05Z",
+      "title": "Compatibilidad del producto Sat by Flexygo con el ERP de Ahora"
+    },
+    "154000130206": {
+      "category_id": "154000119419",
+      "category_name": "SAT by flexygo",
+      "folder_id": "154000308177",
+      "folder_name": "FAQ (SAT)",
+      "last_generated_at": "2026-04-01T13:58:20Z",
+      "path": "docs/SAT by flexygo/FAQ (SAT)/Acceso a la base de datos Flexygo App Offline.md",
+      "product": "SAT",
+      "source_updated_at": "2024-02-23T11:59:32Z",
+      "title": "Acceso a la base de datos Flexygo App Offline"
+    },
+    "154000130228": {
+      "category_id": "154000119419",
+      "category_name": "SAT by flexygo",
+      "folder_id": "154000308177",
+      "folder_name": "FAQ (SAT)",
+      "last_generated_at": "2026-04-01T13:58:20Z",
+      "path": "docs/SAT by flexygo/FAQ (SAT)/Como instalar el SAT de Flexygo.md",
+      "product": "SAT",
+      "source_updated_at": "2024-06-26T10:29:45Z",
+      "title": "Como instalar el SAT de Flexygo"
+    },
+    "154000130229": {
+      "category_id": "154000119419",
+      "category_name": "SAT by flexygo",
+      "folder_id": "154000308177",
+      "folder_name": "FAQ (SAT)",
+      "last_generated_at": "2026-04-01T13:58:20Z",
+      "path": "docs/SAT by flexygo/FAQ (SAT)/Pasos a seguir tras la instalación de SAT by flexygo.md",
+      "product": "SAT",
+      "source_updated_at": "2025-11-25T08:03:46Z",
+      "title": "Pasos a seguir tras la instalación de SAT by flexygo"
+    },
+    "154000130231": {
+      "category_id": "154000119419",
+      "category_name": "SAT by flexygo",
+      "folder_id": "154000308177",
+      "folder_name": "FAQ (SAT)",
+      "last_generated_at": "2026-04-01T13:58:20Z",
+      "path": "docs/SAT by flexygo/FAQ (SAT)/AHORA SAT - App móvil - Clientes.md",
+      "product": "SAT",
+      "source_updated_at": "2024-05-17T11:08:28Z",
+      "title": "AHORA SAT - App móvil - Clientes"
+    },
+    "154000135315": {
+      "category_id": "154000119419",
+      "category_name": "SAT by flexygo",
+      "folder_id": "154000308177",
+      "folder_name": "FAQ (SAT)",
+      "last_generated_at": "2026-04-01T13:58:20Z",
+      "path": "docs/SAT by flexygo/FAQ (SAT)/Depurar error en sincronización en Sat.md",
+      "product": "SAT",
+      "source_updated_at": "2024-03-12T11:27:38Z",
+      "title": "Depurar error en sincronización en Sat"
+    },
+    "154000152010": {
+      "category_id": "154000119419",
+      "category_name": "SAT by flexygo",
+      "folder_id": "154000308177",
+      "folder_name": "FAQ (SAT)",
+      "last_generated_at": "2026-04-01T13:58:20Z",
+      "path": "docs/SAT by flexygo/FAQ (SAT)/AHORA SAT - App Web - Entorno.md",
+      "product": "SAT",
+      "source_updated_at": "2024-05-17T08:33:13Z",
+      "title": "AHORA SAT - App Web - Entorno"
+    },
+    "154000152011": {
+      "category_id": "154000119419",
+      "category_name": "SAT by flexygo",
+      "folder_id": "154000308177",
+      "folder_name": "FAQ (SAT)",
+      "last_generated_at": "2026-04-01T13:58:20Z",
+      "path": "docs/SAT by flexygo/FAQ (SAT)/AHORA SAT - App Web - Configuración.md",
+      "product": "SAT",
+      "source_updated_at": "2024-05-17T08:34:57Z",
+      "title": "AHORA SAT - App Web - Configuración"
+    },
+    "154000152012": {
+      "category_id": "154000119419",
+      "category_name": "SAT by flexygo",
+      "folder_id": "154000308177",
+      "folder_name": "FAQ (SAT)",
+      "last_generated_at": "2026-04-01T13:58:20Z",
+      "path": "docs/SAT by flexygo/FAQ (SAT)/AHORA SAT - App Web - Funcionalidad.md",
+      "product": "SAT",
+      "source_updated_at": "2024-05-17T08:35:40Z",
+      "title": "AHORA SAT - App Web - Funcionalidad"
+    },
+    "154000152014": {
+      "category_id": "154000119419",
+      "category_name": "SAT by flexygo",
+      "folder_id": "154000308177",
+      "folder_name": "FAQ (SAT)",
+      "last_generated_at": "2026-04-01T13:58:20Z",
+      "path": "docs/SAT by flexygo/FAQ (SAT)/AHORA SAT - App móvil - Alcance funcional.md",
+      "product": "SAT",
+      "source_updated_at": "2024-05-17T10:45:14Z",
+      "title": "AHORA SAT - App móvil - Alcance funcional"
+    },
+    "154000152015": {
+      "category_id": "154000119419",
+      "category_name": "SAT by flexygo",
+      "folder_id": "154000308177",
+      "folder_name": "FAQ (SAT)",
+      "last_generated_at": "2026-04-01T13:58:20Z",
+      "path": "docs/SAT by flexygo/FAQ (SAT)/AHORA SAT - App móvil - Instalación y entorno.md",
+      "product": "SAT",
+      "source_updated_at": "2024-05-17T11:03:42Z",
+      "title": "AHORA SAT - App móvil - Instalación y entorno"
+    },
+    "154000152016": {
+      "category_id": "154000119419",
+      "category_name": "SAT by flexygo",
+      "folder_id": "154000308177",
+      "folder_name": "FAQ (SAT)",
+      "last_generated_at": "2026-04-01T13:58:20Z",
+      "path": "docs/SAT by flexygo/FAQ (SAT)/AHORA SAT - App móvil - Partes.md",
+      "product": "SAT",
+      "source_updated_at": "2024-05-17T11:06:40Z",
+      "title": "AHORA SAT - App móvil - Partes"
+    }
+  },
+  "meta": {
+    "last_generated_at": "2026-04-01T13:58:20Z"
+  }
+}
