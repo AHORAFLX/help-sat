@@ -50,18 +50,20 @@ Ingrese el nombre del proyecto y la contraseña para el usuario admin. Confirme 
 
   4. Definición de la Base de Datos de Configuración
 
-El instalador generará una base de datos con el nombre del proyecto seguido del sufijo __config_.
+El instalador generará una base de datos con el nombre del proyecto seguido del sufijo _config.
 
-     * Configure la instancia de SQL Server (por defecto _localhost_) y el usuario administrador de SQL Server (por defecto _sa_).
-     * Ingrese la contraseña del usuario administrador y el nombre de la base de datos. Haga clic en _Next_.
+  * Configure la instancia de SQL Server (por defecto localhost) y el usuario administrador de SQL Server (por defecto sa).
+  * Ingrese la contraseña del usuario administrador y el nombre de la base de datos. Haga clic en _Next_. 
+
   5. Modelo de Datos de AHORA SAT
 
 Si ya tiene una base de datos de AHORA ERP, asegúrese de que está actualizada a la versión 4.4.2400 o superior.
 
-     * Configure la instancia de SQL Server y el usuario administrador de SQL Server para la base. de datos de AHORA ERP. Ingrese la contraseña del usuario y el nombre de la base de datos. Haga clic en _Next_.
+  * Configure la instancia de SQL Server y el usuario administrador de SQL Server para la base. de datos de AHORA ERP. Ingrese la contraseña del usuario y el nombre de la base de datos. Haga clic en _Next_.
+  
   6. Configuración de Documentos e Imágenes
 
-Defina los parámetros para la ruta de documentos e imágenes: _pathFicheros_ , _pathImagenes_ , y _pathImagenes_empleados_.
+Defina los parámetros para la ruta de documentos e imágenes: _pathFicheros_ , _pathImagenes_ , y pathImagenes_empleados.
 
   7. Configuración del Servidor de Aplicaciones IIS
      * Configure el nombre del sitio web y el grupo de aplicaciones (_App Pool_) para la aplicación.
@@ -78,9 +80,9 @@ Proceda con la instalación. El instalador ofrecerá la opción de instalar el m
 
 Una vez completada la instalación, el asistente abrirá la aplicación en su navegador predeterminado.
 
-     * Inicie sesión con el usuario administrador y la contraseña configurados.
+  * Inicie sesión con el usuario administrador y la contraseña configurados.
 
 ### Recomendaciones Post-Instalación
 
-  *Navegador Recomendado : Use Google Chrome para un mejor rendimiento.
-  *Acceso Inicial : Inicie sesión con las credenciales configuradas durante la instalación para empezar a configurar y utilizar AHORA SAT.
+  * Navegador Recomendado : Use Google Chrome para un mejor rendimiento.
+  * Acceso Inicial : Inicie sesión con las credenciales configuradas durante la instalación para empezar a configurar y utilizar AHORA SAT.

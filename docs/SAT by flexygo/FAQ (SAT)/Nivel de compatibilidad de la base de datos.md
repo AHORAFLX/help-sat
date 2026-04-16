@@ -29,7 +29,7 @@ T-SQL
     
     /*
     Ver Nivel Compatibilidad
-    */
+    * /
     -- 80 = SQL Server 2000
     -- 90 = SQL Server 2005
     --100 = SQL Server 2008/R2

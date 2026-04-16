@@ -8,7 +8,7 @@ Este documento hace referencia a la configuración que debe realizar en el SAT u
 
 A) Sea una versión 4.4.2300 o superior.
 
-B) Tenga establecido el nivel de compatibilidad con la versión 2016. VER: <[Enlace Interno](Nivel%20de%20compatibilidad%20de%20la%20base%20de%20datos.md)>
+B) Tenga establecido el nivel de compatibilidad con la versión 2016. VER: <[Nivel de compatibilidad](Nivel%20de%20compatibilidad%20de%20la%20base%20de%20datos.md)>
 
 C) Dicha instalación de AHORA ERP debe estar previamente configurada para trabajar con partes. Puede hacerlo desde el asistente de administración de empresas, entrando en el apartado Instalcore
 
@@ -52,12 +52,4 @@ D) Debe tener correctamente establecidas, mediante parámetros de configuración
 
 7- Reinicie la aplicación pulsando F5 ó el botón de refresco del navegador.
 
-  
-
- *
-
-  
-
-    
-    
-    Una vez realizados estos pasos, ya podrá visualizar las imágenes de los empleados y la aplicación podrá guardar las imágenes en la gestión documental de AHORA ERP
+Una vez realizados estos pasos, ya podrá visualizar las imágenes de los empleados y la aplicación podrá guardar las imágenes en la gestión documental de AHORA ERP

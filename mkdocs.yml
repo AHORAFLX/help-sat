@@ -23,11 +23,22 @@ theme:
     - search.suggest
     - content.code.copy
 use_directory_urls: true
-# Your project navigation structure here ↓
-# nav:
-#   - Home: index.md
-#   - GettingStarted:
-#     - QuickStart: GettingStarted/QuickStart.md
+nav:
+  - Inicio: index.md
+  - FAQ (SAT):
+      - Cómo instalar el SAT de Flexygo: SAT by flexygo/FAQ (SAT)/Como instalar el SAT de Flexygo.md
+      - Pasos a seguir tras la instalación de SAT by flexygo: SAT by flexygo/FAQ (SAT)/Pasos a seguir tras la instalación de SAT by flexygo.md
+      - Compatibilidad del producto Sat by Flexygo con el ERP de Ahora: SAT by flexygo/FAQ (SAT)/Compatibilidad del producto Sat by Flexygo con el ERP de Ahora.md
+      - Nivel de compatibilidad de la base de datos: SAT by flexygo/FAQ (SAT)/Nivel de compatibilidad de la base de datos.md
+      - AHORA SAT - App Web - Configuración: SAT by flexygo/FAQ (SAT)/AHORA SAT - App Web - Configuración.md
+      - AHORA SAT - App Web - Entorno: SAT by flexygo/FAQ (SAT)/AHORA SAT - App Web - Entorno.md
+      - AHORA SAT - App Web - Funcionalidad: SAT by flexygo/FAQ (SAT)/AHORA SAT - App Web - Funcionalidad.md
+      - AHORA SAT - App móvil - Instalación y entorno: SAT by flexygo/FAQ (SAT)/AHORA SAT - App móvil - Instalación y entorno.md
+      - AHORA SAT - App móvil - Alcance funcional: SAT by flexygo/FAQ (SAT)/AHORA SAT - App móvil - Alcance funcional.md
+      - AHORA SAT - App móvil - Clientes: SAT by flexygo/FAQ (SAT)/AHORA SAT - App móvil - Clientes.md
+      - AHORA SAT - App móvil - Partes: SAT by flexygo/FAQ (SAT)/AHORA SAT - App móvil - Partes.md
+      - Acceso a la base de datos Flexygo App Offline: SAT by flexygo/FAQ (SAT)/Acceso a la base de datos Flexygo App Offline.md
+      - Depurar error en sincronización en Sat: SAT by flexygo/FAQ (SAT)/Depurar error en sincronización en Sat.md
 extra:
   version:
     provider: mike
@@ -103,14 +114,10 @@ markdown_extensions:
 plugins:
   - search
   - i18n:
-      docs_structure: suffix
+      default_language: es
       languages:
-        - locale: es
+        es:
           name: Español
-          default: true
-          build: true
-        - locale: en
-          name: English
           build: true
   - glightbox:
       touchNavigation: true

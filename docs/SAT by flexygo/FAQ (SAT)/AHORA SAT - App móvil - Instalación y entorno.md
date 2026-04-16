@@ -22,7 +22,7 @@ Visualiza este vídeo y aprenderás de forma rápida a descargar la aplicación,
 
   
 
-  
+<div class="video-wrapper"><iframe src="https://www.youtube.com/embed/vnslcvI2ALw?&amp;list=PL9w4-AXXOetXd9W86aUlsmdBCh1XxdNk4&amp;index=2&amp;wmode=opaque" title="YouTube video player" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
 
   
 
@@ -36,7 +36,7 @@ Puedes seguir paso a paso el artículo donde te los explicamos con todo detalle.
 
 El primer paso es descargar la App de flexygo de Play Store o de la APP Store de Apple.
 
-<table class="fr-no-borders" style="width: 100%;"><tbody><tr><td dir="ltr" style="width: 50.0000%;"><img class="fr-fic fr-dib fr-bordered" data-attachment="[object Object]" data-id="154016577893" src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/154016577893/original/6J44T4IF4cLrskLwIVweUtzrpuNchDXcfg.png?1715927912" style='box-sizing: content-box; border: 1px solid rgb(204, 204, 204); max-width: 100%; cursor: pointer; padding: 0px 1px; margin-bottom: 5px; margin-left: auto; display: block; color: rgb(0, 0, 0); font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; font-size: 13px; font-weight: 400; text-indent: 0px; width: 480px; text-align: center;'/></td><td dir="ltr" style="width: 50.0000%;"><br/><img class="fr-fic fr-dib fr-bordered" data-attachment="[object Object]" data-id="154016577901" src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/154016577901/original/MOPMcnYgEdqG5lijVVBeOiEpmPt3dtz7TQ.png?1715927918" style='box-sizing: content-box; border: 1px solid rgb(204, 204, 204); max-width: 100%; cursor: pointer; padding: 0px 1px; margin-bottom: 5px; margin-left: auto; display: block; color: rgb(0, 0, 0); font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; font-size: 13px; font-weight: 400; text-indent: 0px; width: 283px; text-align: center;'/> </td></tr></tbody></table>
+<table class="fr-no-borders" style="width: 100%;"><tbody><tr><td dir="ltr" style="width: 50.0000%;"><img class="fr-fic fr-dib fr-bordered" data-attachment="[object Object]" data-id="154016577893" src="../../../docs_assets/images/6J44T4IF4cLrskLwIVweUtzrpuNchDXcfg.png" style='box-sizing: content-box; border: 1px solid rgb(204, 204, 204); max-width: 100%; cursor: pointer; padding: 0px 1px; margin-bottom: 5px; margin-left: auto; display: block; color: rgb(0, 0, 0); font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; font-size: 13px; font-weight: 400; text-indent: 0px; width: 480px; text-align: center;'/></td><td dir="ltr" style="width: 50.0000%;"><br/><img class="fr-fic fr-dib fr-bordered" data-attachment="[object Object]" data-id="154016577901" src="../../../docs_assets/images/MOPMcnYgEdqG5lijVVBeOiEpmPt3dtz7TQ.png" style='box-sizing: content-box; border: 1px solid rgb(204, 204, 204); max-width: 100%; cursor: pointer; padding: 0px 1px; margin-bottom: 5px; margin-left: auto; display: block; color: rgb(0, 0, 0); font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; font-size: 13px; font-weight: 400; text-indent: 0px; width: 283px; text-align: center;'/> </td></tr></tbody></table>
 
  
 
@@ -46,7 +46,7 @@ Esta dirección coincide con la dirección donde se tenga instalada la aplicaci�
 
   
 
-<table class="fr-no-borders" style="width: 100%;"><tbody><tr><td style="width: 50.0000%;"><img class="fr-fic fr-dib fr-bordered" data-attachment="[object Object]" data-id="154016578096" src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/154016578096/original/bK5Yab2BsQhUPlWU3pcvy-1MiR8bFRl3qQ.png?1715928195" style='box-sizing: border-box; border: 0px; max-width: 100%; cursor: pointer; padding: 0px 1px; margin-bottom: 5px; margin-left: auto; display: block; color: rgb(0, 0, 0); font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; font-size: 13px; font-weight: 400; text-indent: 0px; width: 200px; text-align: center;'/></td><td style="width: 50.0000%;"><img class="fr-fic fr-fil fr-dib fr-bordered" data-attachment="[object Object]" data-id="154016578117" src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/154016578117/original/lbrg7157kIyD6y_6Qd34gQWWyPnu4C4ETA.png?1715928220" style="width: 203px;"/></td></tr></tbody></table>
+<table class="fr-no-borders" style="width: 100%;"><tbody><tr><td style="width: 50.0000%;"><img class="fr-fic fr-dib fr-bordered" data-attachment="[object Object]" data-id="154016578096" src="../../../docs_assets/images/bK5Yab2BsQhUPlWU3pcvy-1MiR8bFRl3qQ.png" style='box-sizing: border-box; border: 0px; max-width: 100%; cursor: pointer; padding: 0px 1px; margin-bottom: 5px; margin-left: auto; display: block; color: rgb(0, 0, 0); font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; font-size: 13px; font-weight: 400; text-indent: 0px; width: 200px; text-align: center;'/></td><td style="width: 50.0000%;"><img class="fr-fic fr-fil fr-dib fr-bordered" data-attachment="[object Object]" data-id="154016578117" src="../../../docs_assets/images/lbrg7157kIyD6y_6Qd34gQWWyPnu4C4ETA.png" style="width: 203px;"/></td></tr></tbody></table>
 
  
 
@@ -57,7 +57,7 @@ Esta dirección coincide con la dirección donde se tenga instalada la aplicaci�
 Si hay algún error en los datos de usuario, contraseña o webservice nos avisará con el siguiente mensaje de error.
 
   
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/154016578200/original/ymo0yVbht3rONhkMbXD6DoEuFmJ7k6Rmxg.png?1715928317)
+![](../../docs_assets/images/ymo0yVbht3rONhkMbXD6DoEuFmJ7k6Rmxg.png)
 
   
 
@@ -71,7 +71,7 @@ Para ello lo que haremos será acceder al menú de la aplicación y pulsar sobre
 
   
 
-<table class="fr-no-borders" style="width: 100%;"><tbody><tr><td style="width: 50.0000%;"><img class="fr-fic fr-dib fr-bordered" data-attachment="[object Object]" data-id="154016578427" src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/154016578427/original/DEysRq1cHNSo7JErdKAeghXzAZZ9TaJ26g.png?1715928661" style="width: 220px; display: block; margin-bottom: 5px; margin-left: auto; text-align: center;"/></td><td style="width: 50%;"><img class="fr-fic fr-dib fr-bordered" data-attachment="[object Object]" data-id="154016578434" src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/154016578434/original/NwesoxtMHvWbr1-EQtvdc4F-tB_H-WTbHg.png?1715928678" style="width: 200px; display: block; margin-bottom: 5px; margin-left: auto; text-align: center;"/></td></tr></tbody></table>
+<table class="fr-no-borders" style="width: 100%;"><tbody><tr><td style="width: 50.0000%;"><img class="fr-fic fr-dib fr-bordered" data-attachment="[object Object]" data-id="154016578427" src="../../../docs_assets/images/DEysRq1cHNSo7JErdKAeghXzAZZ9TaJ26g.png" style="width: 220px; display: block; margin-bottom: 5px; margin-left: auto; text-align: center;"/></td><td style="width: 50%;"><img class="fr-fic fr-dib fr-bordered" data-attachment="[object Object]" data-id="154016578434" src="../../../docs_assets/images/NwesoxtMHvWbr1-EQtvdc4F-tB_H-WTbHg.png" style="width: 200px; display: block; margin-bottom: 5px; margin-left: auto; text-align: center;"/></td></tr></tbody></table>
 
  
 
@@ -79,7 +79,7 @@ Para ello lo que haremos será acceder al menú de la aplicación y pulsar sobre
 
 Si pulsamos sobre "Mas opciones" encontramos el proceso de "sobrescribir datos". Esta opción saldrá si activamos el botón de opciones avanzadas que tiene el icono de herramienta.
 
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/154016578367/original/QRSx8enZU6k050Bp3crXpUiJEqxUmtIInQ.png?1715928566)
+![](../../docs_assets/images/QRSx8enZU6k050Bp3crXpUiJEqxUmtIInQ.png)
 
   
 
@@ -91,7 +91,7 @@ Si pulsamos sobre "Mas opciones" encontramos el proceso de "sobrescribir datos".
 
 Una vez finalizada la sincronización ya estamos listos para utilizar nuestra aplicación. En la pantalla principal vemos los accesos a Clientes y partes que veremos en detalle después.
 
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/154016579130/original/stEn2sAXBEQPF8P88Tat8knb-FUIpIpb3A.png?1715929459)
+![](../../docs_assets/images/stEn2sAXBEQPF8P88Tat8knb-FUIpIpb3A.png)
 
 ### Notificaciones
 
@@ -99,7 +99,7 @@ En la parte superior, se encuentran las notificaciones push, estas se encargan d
 
 Estas notificaciones se producen si se modifica algún parte, se crea uno nuevo o si se ha olvidado el fichaje de salida. También notifican si envías un parte.
 
-<table class="fr-no-borders" style="width: 100%;"><tbody><tr><td style="width: 50.0000%;"><img class="fr-fic fr-dib fr-bordered" data-attachment="[object Object]" data-id="154016579300" src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/154016579300/original/Uf3vFtq6wkhPJTJlvrnZOyOQkq4ZIr6ojg.png?1715929582" style="width: 238px; display: block; margin-bottom: 5px; margin-left: auto; text-align: center;"/></td><td style="width: 50.0000%;"><img class="fr-fic fr-dib fr-bordered" data-attachment="[object Object]" data-id="154016579364" src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/154016579364/original/5EN4_7JXxQ1_0mb3nZ9mHoySgYOUPWldOQ.png?1715929612" style="width: 237px; display: block; margin-bottom: 5px; margin-left: auto; text-align: center;"/></td></tr></tbody></table>
+<table class="fr-no-borders" style="width: 100%;"><tbody><tr><td style="width: 50.0000%;"><img class="fr-fic fr-dib fr-bordered" data-attachment="[object Object]" data-id="154016579300" src="../../../docs_assets/images/Uf3vFtq6wkhPJTJlvrnZOyOQkq4ZIr6ojg.png" style="width: 238px; display: block; margin-bottom: 5px; margin-left: auto; text-align: center;"/></td><td style="width: 50.0000%;"><img class="fr-fic fr-dib fr-bordered" data-attachment="[object Object]" data-id="154016579364" src="../../../docs_assets/images/5EN4_7JXxQ1_0mb3nZ9mHoySgYOUPWldOQ.png" style="width: 237px; display: block; margin-bottom: 5px; margin-left: auto; text-align: center;"/></td></tr></tbody></table>
 
  
 
@@ -109,7 +109,7 @@ Estas notificaciones se producen si se modifica algún parte, se crea uno nuevo 
 
 El acceso a las distintas opciones se puede hacer desde la pantalla de inicio o desde el menú arriba a la izquierda representado por tres líneas horizontales. Si accedemos al menú encontramos las siguientes opciones.
 
-### ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/154016579386/original/Ob3iW6d3P0xwsVIvzppYK6nLUEg0Nu-rZg.png?1715929668)
+### ![](../../docs_assets/images/Ob3iW6d3P0xwsVIvzppYK6nLUEg0Nu-rZg.png)
 
 ### Usuario
 
@@ -121,7 +121,7 @@ La primera opción corresponde al usuario conectado, al pulsar sobre esta opció
   * Cambiar cuenta
   * Desconectar
 
-![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/154016579411/original/UWGBkURiC9rt38XH7mVg7UdipwaCtCs-ZA.png?1715929716)
+![](../../docs_assets/images/UWGBkURiC9rt38XH7mVg7UdipwaCtCs-ZA.png)
 
   
 
@@ -153,7 +153,7 @@ En esta opción de menú encontramos "Solo recibir " (1) o "Enviar y recibir "(2
 
   
 
-<table class="fr-no-borders" style="width: 100%;"><tbody><tr><td style="width: 50.0000%;"><img class="fr-fic fr-dib fr-bordered" data-attachment="[object Object]" data-id="154016578427" src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/154016578427/original/DEysRq1cHNSo7JErdKAeghXzAZZ9TaJ26g.png?1715928661" style="width: 220px; display: block; margin-bottom: 5px; margin-left: auto; text-align: center;"/></td><td style="width: 50%;"><img class="fr-fic fr-dib fr-bordered" data-attachment="[object Object]" data-id="154016578434" src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/154016578434/original/NwesoxtMHvWbr1-EQtvdc4F-tB_H-WTbHg.png?1715928678" style="width: 200px; display: block; margin-bottom: 5px; margin-left: auto; text-align: center;"/></td></tr></tbody></table>
+<table class="fr-no-borders" style="width: 100%;"><tbody><tr><td style="width: 50.0000%;"><img class="fr-fic fr-dib fr-bordered" data-attachment="[object Object]" data-id="154016578427" src="../../../docs_assets/images/DEysRq1cHNSo7JErdKAeghXzAZZ9TaJ26g.png" style="width: 220px; display: block; margin-bottom: 5px; margin-left: auto; text-align: center;"/></td><td style="width: 50%;"><img class="fr-fic fr-dib fr-bordered" data-attachment="[object Object]" data-id="154016578434" src="../../../docs_assets/images/NwesoxtMHvWbr1-EQtvdc4F-tB_H-WTbHg.png" style="width: 200px; display: block; margin-bottom: 5px; margin-left: auto; text-align: center;"/></td></tr></tbody></table>
 
  
 
@@ -165,8 +165,8 @@ Enviar y recibir- > Envía todos los datos, se procesan en el servidor y se env�
 
   
 
-Si pulsamos el menú "Más opciones "  accedemos a las opciones avanzadas a las que hacíamos referencia al principio. Donde se puede ver la fecha de la última sincronización y las opciones "Refrescar datos " y "Enviar y recibir ". Además de la opción "Cambiar de cuenta " .![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/154016579017/original/wPKhqczWZlpPqMp2_V9-vBq0wF447kQBPA.png?1715929332)  
+Si pulsamos el menú "Más opciones "  accedemos a las opciones avanzadas a las que hacíamos referencia al principio. Donde se puede ver la fecha de la última sincronización y las opciones "Refrescar datos " y "Enviar y recibir ". Además de la opción "Cambiar de cuenta " .![](../../docs_assets/images/wPKhqczWZlpPqMp2_V9-vBq0wF447kQBPA.png)  
 
 Al activar el botón de opciones avanzadas que tiene el icono de herramienta aparecen otras opciones destinadas al uso del personal técnicos.
 
-<table class="fr-no-borders" style="width: 100%;"><tbody><tr><td style="width: 50.0000%;"><img class="fr-fic fr-dib fr-bordered" data-attachment="[object Object]" data-id="154016578840" src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/154016578840/original/7zsnbK6B4HT5zKiRD4myJbVR1kYOWv0h_A.png?1715929059" style="width: 257px; display: block; margin-bottom: 5px; margin-left: auto; text-align: center;"/></td><td style="width: 50.0000%;"><img class="fr-fic fr-dib fr-bordered" data-attachment="[object Object]" data-id="154016578854" src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/154016578854/original/qe36syTi9nJ5DUyrNcZ3yh6_ddhV2SJyvg.png?1715929066" style="width: 258px; display: block; margin-bottom: 5px; margin-left: auto; text-align: center;"/></td></tr></tbody></table>
+<table class="fr-no-borders" style="width: 100%;"><tbody><tr><td style="width: 50.0000%;"><img class="fr-fic fr-dib fr-bordered" data-attachment="[object Object]" data-id="154016578840" src="../../../docs_assets/images/7zsnbK6B4HT5zKiRD4myJbVR1kYOWv0h_A.png" style="width: 257px; display: block; margin-bottom: 5px; margin-left: auto; text-align: center;"/></td><td style="width: 50.0000%;"><img class="fr-fic fr-dib fr-bordered" data-attachment="[object Object]" data-id="154016578854" src="../../../docs_assets/images/qe36syTi9nJ5DUyrNcZ3yh6_ddhV2SJyvg.png" style="width: 258px; display: block; margin-bottom: 5px; margin-left: auto; text-align: center;"/></td></tr></tbody></table>

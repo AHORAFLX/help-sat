@@ -2,6 +2,8 @@
 
 En el siguiente artículo conocerás la pantalla de clientes, a continuación también puedes visualizar un vídeo formativo sobre esta pantalla.
 
+<div class="video-wrapper"><iframe src="https://www.youtube.com/embed/4XEAdKpWP00?&amp;list=PL9w4-AXXOetXd9W86aUlsmdBCh1XxdNk4&amp;index=4&amp;wmode=opaque" title="YouTube video player" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
+
 La pantalla de clientes es de consulta. En ella obtenemos una lista con todos los clientes de la aplicación. 
 
   
