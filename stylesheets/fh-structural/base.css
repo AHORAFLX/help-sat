@@ -1,0 +1,582 @@
+/* Global variables */
+:root  > * {
+  /* Font */
+  --md-text-font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji","Segoe UI Emoji", "Segoe UI Symbol";
+  
+  /* Borders */
+  --fh-border-radius: 16px;
+  --fh-border: 1px solid var(--fh-color-border);
+  
+  /* Main Sidebar*/
+  --fh-main-sidebar-width: 19dvw;
+  --fh-main-sidebar-padding: 20px;
+
+  /* Main content */
+  --fh-main-content-margin: 2rem;
+
+  /* Images */
+  --fh-main-background: url(../../docs_assets/fh-structural/images/backgrounds/light-background.svg);
+
+  /* Box Shadow */
+  --fh-module-boxshadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+
+  --header-height: 48px;
+}
+
+/* Dark mode variables */
+[data-md-color-scheme="darkmode"] {
+  /* Images */
+  --fh-main-background: url(../../docs_assets/fh-structural/images/backgrounds/dark-background.svg);
+}
+
+/* Hiding images that are only for light mode in dark mode */
+[data-md-color-scheme=darkmode] img[src$="#gh-light-mode-only"], [data-md-color-scheme=darkmode] img[src$="#only-light"] {
+    display: none;
+}
+
+html:has(dialog[open]) {
+  overflow: hidden;
+}
+
+/* Header */
+header.md-header {
+  box-shadow: none;
+  position: fixed;
+  
+  width: calc(100dvw - var(--fh-main-sidebar-width));
+  left: var(--fh-main-sidebar-width);
+
+  /* Logo that just appears on middle and small size */
+  a.md-logo {
+    display: none;
+
+    position: absolute;
+    left: 0;
+  }
+  
+  /* Alignment of nav buttons */
+  nav.md-header__inner {
+    justify-content: flex-end;
+    margin: 0;
+    max-width: 100%;
+    margin-right: 20px;
+    
+    .md-version__list {
+      background-color: var(--fh-color-section);
+      border-radius: var(--fh-border-radius);
+    }
+  }
+
+  /* Search input */
+  .md-search {
+    position: absolute;
+    left: calc(50dvw - var(--fh-main-sidebar-width));
+    transform: translatex(-50%);
+
+    .md-search__overlay {
+      width: 300dvw !important; /* Width is set in an hiper specific selector on mkdocs skin */
+      left: -100dvw;
+    }
+
+    .md-search__inner {
+      width: 125%;
+
+      .md-search__form {
+        background-color: transparent;
+        border-bottom: 1px solid;
+
+        &:has(.focus-visible) {
+          border-radius: var(--fh-border-radius) var(--fh-border-radius) 0 0 !important;
+
+          .md-search__input {
+            background-color: var(--md-default-bg-color);
+            border-radius: var(--fh-border-radius) var(--fh-border-radius) 0 0;
+          }
+        }
+      }
+
+      .md-search-result__meta {
+        background-color: #e5e7e9;
+      }
+    }
+  }
+
+  [data-md-toggle=search]:checked~.md-header .md-search__form {
+      background-color: var(--md-default-bg-color);
+      border-radius: var(--fh-border-radius) var(--fh-border-radius) 0 0;
+  }
+
+  .md-search__output {
+    border-radius: 0 0 var(--fh-border-radius) var(--fh-border-radius);
+  }
+
+  /* Language Selector PopUp */
+  .md-select__inner {
+    border-radius: var(--fh-border-radius);
+    border: var(--fh-border);
+    background-color: var(--fh-color-background);
+    color: var(--md-typeset-color);
+
+    &:after {
+      border-bottom-color: var(--fh-color-background);
+    }
+  }
+}
+
+/* Header with search bar focused */
+[data-md-toggle="search"]:checked ~ header.md-header .md-search__inner .md-search__form {
+  border-radius: var(--fh-border-radius) var(--fh-border-radius) 0 0 !important;
+}
+
+[data-md-toggle=search]:checked~header.md-header .md-search .md-search__inner .md-search__form {
+  background-color: var(--md-default-bg-color);
+  border-radius: var(--fh-border-radius) var(--fh-border-radius) 0 0;
+}
+
+/* Main Sidebar */
+.fh-sidebar {
+  top: 0 !important; /* Top on the material theme is set on the style */
+  padding: 0;
+  width: fit-content;
+  max-width: var(--fh-main-sidebar-width);
+  min-width: var(--fh-main-sidebar-width);
+  
+  /* Logo and docs text */
+  .fh-sidebarheader {
+    display: flex;
+    align-items: center;
+
+    height: var(--header-height);
+
+    width: var(--fh-main-sidebar-width);
+    background-color: var(--fh-identity-color);
+
+    /* Centering and spacing logo and docs text */
+    a {
+      display: flex;
+    }
+  }
+
+  /* Nav section */
+  /* Module style */
+  .md-sidebar__scrollwrap {
+    height: calc(100dvh - var(--header-height)) !important; /* Height in the material theme is set on the style | 53px = Header height*/
+    width: var(--fh-main-sidebar-width);
+    margin: 0;
+
+    background: var(--fh-color-section);
+    padding: var(--fh-main-sidebar-padding);
+    border: var(--fh-border);
+    box-shadow: 0 8px 19px 0 rgb(0 0 0 / 37%); /* Uses a different box shadow for it to only be shown on the right */
+  }
+
+  /* Making nav nodes have an small margin left */
+  .md-nav__item:not(.md-nav__item--section) {
+    margin-left: 15px;
+  }
+
+  /* Removing the margin above for the nodes that has no parent */
+  .md-nav.md-nav--primary > .md-nav__list > .md-nav__item:not(.md-nav__item--section){
+    margin: 0;
+  }
+}
+
+/* Main content and Secondary sidebar */
+main {
+  background-color: var(--fh-color-background);
+  background-image: var(--fh-main-background);
+
+  .md-main__inner {
+    margin: 0;
+    min-width: 100dvw;
+
+    /* Main content and Secondary sidebar direct container */
+    .fh-maincontainer {
+      display: flex;
+      
+      /* Main content module */
+      /* Module style */
+      .md-content {
+        display: flex;
+        justify-content: center;
+
+        background: var(--fh-color-section);
+        padding: 20px;
+        border-radius:  var(--fh-border-radius);
+        border: var(--fh-border);
+        margin: 0 var(--fh-main-content-margin) 12px var(--fh-main-content-margin);
+        box-shadow: var(--fh-module-boxshadow);
+        
+        max-width: calc(60dvw - 80px);
+        min-width: calc(60dvw - 80px);
+        margin-top: 73px;
+
+        article {
+          max-width: 630px;
+          width: 630px;
+        }
+      }
+      
+      /* Secondary Sidebar */
+      .fh-rightsidebar {
+        max-width: calc(20dvw - 3rem);
+        min-width: calc(20dvw - 3rem);
+        margin-right: 3rem;
+
+        top: 47px !important;
+
+        /* Module style */
+        .md-sidebar__scrollwrap {
+          background: var(--fh-color-section);
+          padding: 20px;
+          border-radius:  var(--fh-border-radius);
+          border: var(--fh-border);
+          box-shadow: var(--fh-module-boxshadow);
+
+          height: calc(100dvh - 85px) !important;
+        }
+
+        /* Removes a material stlye */
+        .md-nav--secondary .md-nav__title {
+          background: var(--fh-color-section);
+          box-shadow: none;
+          font-weight: 500;
+          
+          padding-top: 20px;
+          top: -20px;
+        }
+      }
+    }
+  }
+}
+
+.md-typeset {
+  /* Titles */
+  h1, h2, h3, h4, h5, h6 {
+    font-weight: 400;
+    color: var(--md-default-fg-color--bold);
+  }
+
+  /* Titles */
+  h1 {
+    font-weight: 600;
+    margin-bottom: 20px;
+  }
+
+  /* Centered Images */
+  p:has(> img:not(.twemoji,.fh-image-of-title)) {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+/* Backdrop */
+.md-overlay {
+  backdrop-filter: blur(3px);
+}
+
+/* Tables */
+.md-typeset table:not([class]) {
+  background-color: var(--fh-color-section);
+  border-radius: var(--fh-border-radius);
+  border-color: var(--fh-color-border);
+
+  td {
+    border-color: var(--fh-color-border);
+  }
+}
+
+.md-content img {
+  border-radius: var(--fh-border-radius);
+}
+
+/* Logo that just appears on middle and small size */
+a.md-logo {
+  display: flex;
+  align-items: center;
+
+  font-weight: bold;
+  color: white;
+  font-size: 19px;
+
+  img {
+    margin: 0 10px;
+  }
+}
+
+/* Code Blocks */
+.md-typeset code {
+  border-radius: var(--fh-border-radius);
+  max-height: 500px;
+}
+
+.highlight:has(code) {
+  border-radius: calc(var(--fh-border-radius) * 2); /* So it does not show a bit of white border in dark mode */
+  background-color: var(--md-code-bg-color);
+  max-width: 100%;
+
+  .filename {
+    border-radius: var(--fh-border-radius) var(--fh-border-radius) 0 0;
+  }
+
+  /* When you need the scripting language header not to appear */
+  &.no-language {
+    .filename {
+      display: none;
+    }
+
+    pre > code {
+      border-radius: var(--fh-border-radius);
+    }
+  }
+}
+
+/* Copied to clipboard dialog */
+.md-dialog {
+  border-radius: var(--fh-border-radius);
+}
+
+/* This fixes table of content titles higlighting the title above the one clicked intead of the clicked */
+.md-typeset :target {
+  scroll-margin-top: 2.3rem; /* Adds an offset above an element when scrolled to, preventing it from being hidden behind fixed headers  */
+}
+
+/* Styles to apply when docs are in an iframe */
+.in-flexygo {
+  fh-versions {
+    display: none;
+  }
+}
+
+/* Medium Screen Size */
+@media screen and (max-width: 76.2344em) {
+  /* Header */
+  header.md-header {
+    width: 100dvw;
+    left: 0;
+    border-radius: 0;
+
+    a.md-logo {
+      display: flex;
+      align-items: center;
+    }
+    
+    .md-version {
+      margin-left: 55px;
+    }
+
+    .md-header__button {
+      margin: 0;
+    }
+
+    .md-search {
+      left: calc(50dvw);
+
+      .md-search__inner {
+        width: 125%;
+
+        .md-search__form {
+          &:has(.focus-visible) {
+            border-radius: var(--fh-border-radius) var(--fh-border-radius) 0 0 !important;
+
+            .md-search__input {
+              background-color: var(--md-default-bg-color);
+              border-radius: var(--fh-border-radius) var(--fh-border-radius) 0 0;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  /* Main Sidebar */
+  .fh-sidebar {
+    .fh-sidebarheader {
+      display: none;
+    }
+
+    .md-sidebar__scrollwrap {
+      box-shadow: none;
+    }
+  }
+
+  /* Sidebar opened */
+  [data-md-toggle=drawer]:checked~.md-container .md-sidebar {
+    --fh-main-sidebar-width: 80dvw;
+  }
+
+  /* Main content and Secondary sidebar */
+  main {
+    .md-main__inner .fh-maincontainer {
+      /* Main content*/
+      .md-content {
+        min-width: calc(75dvw - 80px);
+        max-width: calc(75dvw - 80px);
+
+        /* Blue connecting header bar */
+        &:before {
+          display: none;
+        }
+      }
+
+      /* Secondary sidebar */
+      .fh-rightsidebar {
+        top: 47px !important;
+
+        min-width: 20dvw;
+        max-width: 20dvw;
+      }
+    }
+  } 
+}
+
+/* Small Screen Size */
+@media screen and (max-width: 59.9844em) {
+  /* Search input with everything cutom removed so it just fills all available space */
+  header.md-header {
+    .md-search {
+      position: unset;
+      transform: unset;
+
+      .md-search__inner {
+        .md-search__form {
+          .md-search__input {
+            color: var(--md-default-fg-color);
+          }
+        }
+      }
+    }
+  }
+
+  /* Main content and Secondary sidebar */
+  main .md-main__inner .fh-maincontainer {
+    > .md-content {
+      display: flex;
+      flex-direction: column;
+      align-content: center;
+      flex-wrap: wrap;
+      
+      margin: 30px 0 0 0;
+      min-width: 100dvw;
+    }
+  }
+}
+
+/* Not big screens */
+@media screen and (min-width: 60em) {
+  .fh-sidebar .md-sidebar__scrollwrap {
+    height: calc(100dvh - 48px) !important;
+  }
+}
+
+@media screen and (min-width: 76.25em) {
+  .md-nav__item--section>.md-nav__link[for] {
+    font-weight: 500;
+  }
+}
+
+.hidden {
+  display: none;
+}
+
+/* We do this so the right menu works properly */
+.hidden-title { 
+  visibility: hidden;
+  height: 1px;
+}
+
+.clickable {
+  cursor: pointer;
+}
+
+.inline-flex-center {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.collapse {
+  transition: height 0.3s ease-out, opacity 0.3s ease-out;
+  overflow: hidden;
+}
+
+.collapsed {
+  height: 0px;
+  opacity: 0;
+}
+
+[data-toggle="collapse"] {
+  transition: height 0.3s ease-out ;
+}
+
+i[data-toggle="collapse"] {
+  border-color: var(--outstanding-color);
+  border-radius: 2px; 
+}
+
+/* Ocultar otros idiomas en la barra de búsqueda */
+html[lang="en"] .md-search-result__item:not(:has(a[href*="/en/"])) {
+  display: none;
+}
+
+html[lang="es"] .md-search-result__item:has(a[href*="/en/"]) {
+  display: none;
+}
+
+/* No ocultar selector de versión al scrollear */
+.md-header__title {
+  transform: none !important;
+}
+
+.md-header__topic:first-child {
+  transform: none !important;
+  opacity: 1 !important;
+}
+
+/* Smaller Screen Size */
+@media screen and (max-width: 44.9844em) {
+  /* Codeblocks get multiple styles that make docs look worse in this sizes */
+  main .md-main__inner .fh-maincontainer .md-content article {
+      max-width: 100%;
+  }
+
+  .md-content__inner > .highlight {
+      margin: 0;
+      
+      > .filename {
+          border-radius: var(--fh-border-radius) var(--fh-border-radius) 0 0;
+      }
+
+      .md-content__inner > .highlight > pre > code {
+          border-radius: 0 0 var(--fh-border-radius) var(--fh-border-radius);
+      }
+  }
+}
+
+/* Greater Screen Sizes */
+@media screen and (min-width: 100em) {
+  :root > * {
+    --header-height: 53px;
+  }
+}
+
+@media screen and (min-width: 125em) {
+  :root > * {
+    --header-height: 58px;
+  }
+}
+
+/* Dialog for flexygo url opening */
+#navigation-dialog {
+  color: var(--md-typeset-color);
+  background-color: var(--fh-color-section);
+  border: var(--fh-border);
+
+  input {
+    background-color: var(--fh-color-section);
+  }
+
+  &::backdrop {
+    backdrop-filter: blur(2px);
+  }
+}
