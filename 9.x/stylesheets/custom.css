@@ -1,0 +1,4 @@
+/*Ocultar selector de idiomas*/
+.md-header__option:has(.md-select) {
+  display: none;
+}

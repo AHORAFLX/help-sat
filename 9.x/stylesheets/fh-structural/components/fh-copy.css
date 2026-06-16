@@ -1,0 +1,5 @@
+fh-copy::before {
+    content: "\f2d2";
+    font: normal normal normal 14px / 1 Flexygo-icons;
+    margin-right: 5px;
+}
