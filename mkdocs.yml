@@ -32,6 +32,7 @@ extra_css:
   # Basic styles for every documentation project
   ## Basic Structure
   - stylesheets/custom-colors.css
+  - stylesheets/custom.css
   - stylesheets/fh-structural/base.css
   - stylesheets/fh-structural/code-highlighting.css
   - stylesheets/fh-structural/css-class-components.css
