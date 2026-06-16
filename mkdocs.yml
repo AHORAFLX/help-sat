@@ -107,42 +107,12 @@ plugins:
           build: true
           # Here goes every menu translation for English (only the ones that are not like the folder name) ↓
           nav_translations:
-            Home: Home
-            GettingStarted: Getting started
-            QuickStart: Quick start
-            VisualStructure: Visual structure
-            FileStructure: File structure
-            Components: Components
-            BasicMarkdown: Basic markdown
-            AdvancedMarkdown: Advanced markdown
-            CustomComponents: Custom components
-            CustomClasses: Custom classes
-            Error404Page: 404 error page
-            Deployment: Deployment
-            BuildingYourSite: Building your site
-            Reference: Reference
-            Troubleshooting: Troubleshooting
         - locale: es
           default: true
           name: Español
           build: true
           # Here goes every menu translation for Spanish ↓
           nav_translations:
-            Home: Inicio
-            GettingStarted: Primeros pasos
-            QuickStart: Inicio rápido
-            VisualStructure: Estructura visual
-            FileStructure: Estructura de archivos
-            Components: Componentes
-            BasicMarkdown: Markdown básico
-            AdvancedMarkdown: Markdown avanzado
-            CustomComponents: Componentes personalizados
-            CustomClasses: Clases personalizadas
-            Error404Page: Página de error 404
-            Deployment: Despliegue
-            BuildingYourSite: Construcción del sitio
-            Reference: Referencia
-            Troubleshooting: Solución de problemas
   - glightbox:
       touchNavigation: true
       loop: false
