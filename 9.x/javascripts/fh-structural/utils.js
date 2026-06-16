@@ -58,10 +58,10 @@ function changeLanguage(new_language) {
     window.location.href = new_url;
 }
 
-// We look for any <link> that points into /main-flexygo-styles.css and grab that url from before stylesheets so that will know the base path
-// We do it with main-flexygo-styles.css because /docs_assets/ is saved in a different place
+// We look for any <link> that points into /base.css and grab that url from before stylesheets so that will know the base path
+// We do it with base.css because /docs_assets/ is saved in a different place
 function getBasePath() {
-    const link_element = document.querySelector('link[href*="/main-flexygo-styles.css"]');
+    const link_element = document.querySelector('link[href*="/base.css"]');
     if (!link_element) return '';
     try {
         // We get the prefix up to (but not including) /docs_assets/ and remove the last / if present 
