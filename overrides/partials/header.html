@@ -11,7 +11,7 @@
   <nav class="md-header__inner md-grid" aria-label="{{ lang.t('header') }}">
     <a href="{{ config.extra.homepage | d(nav.homepage.url, true) | url }}" title="{{ config.site_name | e }}" class="md-header__button md-logo" aria-label="{{ config.site_name }}" data-md-component="logo">
       {% include "partials/logo.html" %}
-      {{ config.site_name }}
+      Docs
     </a>
     <fh-versions></fh-versions>
     <div class="md-header__title" data-md-component="header-title">
@@ -35,6 +35,9 @@
         </label>
         {% include "partials/search.html" %}
       {% endif %}
+    {% endif %}
+    {% if config.extra.alternate %}
+      {% include "partials/alternate.html" %}
     {% endif %}
     {% if config.theme.palette %}
       {% if not config.theme.palette is mapping %}

@@ -1,13 +1,90 @@
-{% extends "main.html" %}
-
-{% block content %}
-  <main class="error-404">
-    <div>
-      <h1>404 - Not found</h1>
-      <h2>Sorry, this page does not exist</h2>
-      <a href="{{ base_url }}/" class="button">
-        <span class="mdi mdi-home"></span> Return to Home page
-      </a>
-    </div>
-  </main>
+<!-- Content --> 
+{% block header %} 
+    {% block site_meta %}
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      {% if page.meta and page.meta.description %}
+        <meta name="description" content="{{ page.meta.description }}">
+      {% elif config.site_description %}
+        <meta name="description" content="{{ config.site_description }}">
+      {% endif %}
+      {% if page.meta and page.meta.author %}
+        <meta name="author" content="{{ page.meta.author }}">
+      {% elif config.site_author %}
+        <meta name="author" content="{{ config.site_author }}">
+      {% endif %}
+      {% if page.canonical_url %}
+        <link rel="canonical" href="{{ page.canonical_url }}">
+      {% endif %}
+      {% if page.previous_page %}
+        <link rel="prev" href="{{ page.previous_page.url | url }}">
+      {% endif %}
+      {% if page.next_page %}
+        <link rel="next" href="{{ page.next_page.url | url }}">
+      {% endif %}
+      {% if "rss" in config.plugins %}
+        <link rel="alternate" type="application/rss+xml" title="{{ lang.t('rss.created') }}" href="{{ 'feed_rss_created.xml' | url }}">
+        <link rel="alternate" type="application/rss+xml" title="{{ lang.t('rss.updated') }}" href="{{ 'feed_rss_updated.xml' | url }}">
+      {% endif %}
+      <link rel="icon" href="{{ config.theme.favicon | url }}">
+      <meta name="generator" content="mkdocs-{{ mkdocs_version }}, mkdocs-material-9.6.14">
+    {% endblock %}
+    {% block htmltitle %}
+      {% if page.meta and page.meta.title %}
+        <title>{{ page.meta.title }} - {{ config.site_name }}</title>
+      {% elif page.title and not page.is_homepage %}
+        <title>{{ page.title | striptags }} - {{ config.site_name }}</title>
+      {% else %}
+        <title>{{ config.site_name }}</title>
+      {% endif %}
+    {% endblock %}
+    {% block styles %}
+      <link rel="stylesheet" href="{{ 'assets/stylesheets/main.342714a4.min.css' | url }}">
+      {% if config.theme.palette %}
+        {% set palette = config.theme.palette %}
+        <link rel="stylesheet" href="{{ 'assets/stylesheets/palette.06af60db.min.css' | url }}">
+      {% endif %}
+      {% include "partials/icons.html" %}
+    {% endblock %}
+    {% block libs %}
+      {% for script in config.extra.polyfills %}
+        {{ script | script_tag }}
+      {% endfor %}
+    {% endblock %}
+    {% block fonts %}
+      {% if config.theme.font != false %}
+        {% set text = config.theme.font.text | d("Roboto", true) %}
+        {% set code = config.theme.font.code | d("Roboto Mono", true) %}
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family={{
+            text | replace(' ', '+') + ':300,300i,400,400i,700,700i%7C' +
+            code | replace(' ', '+') + ':400,400i,700,700i'
+          }}&display=fallback">
+        <style>:root{--md-text-font:"{{ text }}";--md-code-font:"{{ code }}"}</style>
+      {% endif %}
+    {% endblock %}
+    {% for path in config.extra_css %}
+      <link rel="stylesheet" href="{{ path | url }}">
+    {% endfor %}
+    {% include "partials/javascripts/base.html" %}
+    {% block analytics %}
+      {% include "partials/integrations/analytics.html" %}
+    {% endblock %}
+    {% if page.meta and page.meta.meta %}
+      {% for tag in page.meta.meta %}
+        <meta {% for key, value in tag | items %} {{ key }}="{{value}}" {% endfor %}>
+      {% endfor %}
+    {% endif %}
+    {% block extrahead %}{% endblock %}
 {% endblock %}
+{% block content %} 
+    <main class="error-404">
+        <div>
+            <h1>404 - Not found</h1> 
+            <h2>Sorry, this page does not exist</h2>
+            <a href="/" class="button">
+                <span class="mdi mdi-home"></span> Return to Home page
+            </a>
+        </div>
+    </main>
+{% endblock %} 

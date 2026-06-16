@@ -1,0 +1,9 @@
+{
+  "name": "docs-publisher",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "docs:update": "node publish_scripts/update.js",
+    "docs:publish": "node publish_scripts/publish.js"
+  }
+}

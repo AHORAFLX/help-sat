@@ -44,10 +44,10 @@
       {% endif %}
     {% endblock %}
     {% block styles %}
-      <link rel="stylesheet" href="{{ 'assets/stylesheets/main.484c7ddc.min.css' | url }}">
+      <link rel="stylesheet" href="{{ 'assets/stylesheets/main.342714a4.min.css' | url }}">
       {% if config.theme.palette %}
         {% set palette = config.theme.palette %}
-        <link rel="stylesheet" href="{{ 'assets/stylesheets/palette.ab4e12ef.min.css' | url }}">
+        <link rel="stylesheet" href="{{ 'assets/stylesheets/palette.06af60db.min.css' | url }}">
       {% endif %}
       {% include "partials/icons.html" %}
     {% endblock %}
@@ -160,7 +160,7 @@
                 <div class="fh-sidebarheader">
                   <a href="{{ config.extra.homepage | d(nav.homepage.url, true) | url }}" title="{{ config.site_name | e }}" class="md-header__button md-logo" aria-label="{{ config.site_name }}" data-md-component="logo">
                     {% include "partials/logo.html" %}
-                    {{ config.site_name }}
+                    SAT
                   </a>
                   <fh-versions></fh-versions>
                 </div>
@@ -244,14 +244,14 @@
             "search.result.term.missing": lang.t("search.result.term.missing"),
             "select.version": lang.t("select.version")
           },
-          "search": "assets/javascripts/workers/search.2c215733.min.js" | url,
+          "search": "assets/javascripts/workers/search.d50fe291.min.js" | url,
           "tags": _.tags or none,
           "version": _.version or none
         } | tojson -}}
       </script>
     {% endblock %}
     {% block scripts %}
-      <script src="{{ 'assets/javascripts/bundle.79ae519e.min.js' | url }}"></script>
+      <script src="{{ 'assets/javascripts/bundle.13a4f30d.min.js' | url }}"></script>
       {% for script in config.extra_javascript %}
         {{ script | script_tag }}
       {% endfor %}
