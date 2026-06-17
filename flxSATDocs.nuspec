@@ -15,7 +15,7 @@
 	<dependencies></dependencies>
   </metadata>
   <files>
-    <file src="docs\**\*.*" target="content\docs\" exclude="**\*.map" /> 
-	<file src="versions.json" target="content\versions.json" /> 
+    <file src="docs\**\*.*" target="content\sat\docs\" exclude="**\*.map" /> 
+	  <file src="versions.json" target="content\sat\versions.json" /> 
   </files>
 </package>
