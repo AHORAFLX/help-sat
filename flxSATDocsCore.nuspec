@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>flxSATDocsCore</id>
+    <version>1.0.0.1</version>
+    <title>AHORA SAT Docs Core</title>
+    <authors>Ahora Freeware</authors>
+    <owners>Ahora Freeware</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>AHORA SAT Docs Core</description>
+    <copyright>Copyright © 2020 Ahora Freeware</copyright>
+    <projectUrl>http://flexygo.es</projectUrl>
+    <iconUrl>https://nuget.flexygo.com/isotipo.png</iconUrl>
+    <releaseNotes/>
+    <contentFiles>
+      <files include="**/*.*" buildAction="None" copyToOutput="false" />
+    </contentFiles>
+    <dependencies></dependencies>
+  </metadata>
+  <files>
+    <!-- Store files once - .targets will handle copying for both old and new projects -->
+    <file src="docs\**\*.*" target="contentFiles\any\any\docs\" exclude="**\*.map" /> 
+    <file src="versions.json" target="contentFiles\any\any\versions.json" /> 
+    
+    <!-- MSBuild target to copy files for all project types -->
+    <file src="flxSATDocsCore.targets" target="build\flxSATDocsCore.targets" />
+  </files>
+</package>

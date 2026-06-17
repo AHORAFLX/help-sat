@@ -1,0 +1,41 @@
+<Project>
+  <Target Name="SyncFlxSATDocs" BeforeTargets="BeforeBuild">
+    <!-- Carpeta de origen dentro del paquete NuGet -->
+    <PropertyGroup>
+      <FlxSATDocsSource>$(MSBuildThisFileDirectory)..\contentFiles\any\any</FlxSATDocsSource>
+      <FlxSATDocsDestination>$(MSBuildProjectDirectory)\wwwroot\sat</FlxSATDocsDestination>
+    </PropertyGroup>
+
+    <!-- Todos los archivos que queremos copiar -->
+    <ItemGroup>
+      <FlxSATDocsFiles Include="$(FlxSATDocsSource)\**\*.*" />
+    </ItemGroup>
+
+    <Message Text="FlxSATDocs: Sincronizando archivos en $(FlxSATDocsDestination)" Importance="high" />
+
+    <!-- 1️⃣ Archivos existentes en wwwroot (solo docs y versions.json) -->
+    <ItemGroup>
+      <ExistingFlxSATDocs Include="$(FlxSATDocsDestination)\docs\**\*.*" />
+      <ExistingFlxSATDocs Include="$(FlxSATDocsDestination)\versions.json" />
+    </ItemGroup>
+
+    <!-- 2️⃣ Rutas de destino esperadas para cada archivo del paquete -->
+    <ItemGroup>
+      <FlxSATDocsDestFiles Include="@(FlxSATDocsFiles->'$(FlxSATDocsDestination)\%(RecursiveDir)%(Filename)%(Extension)')" />
+    </ItemGroup>
+
+    <!-- 3️⃣ Archivos a eliminar: existen en wwwroot pero NO en el paquete -->
+    <ItemGroup>
+      <FilesToDelete Include="@(ExistingFlxSATDocs)"
+                     Exclude="@(FlxSATDocsDestFiles)" />
+    </ItemGroup>
+
+    <!-- 4️⃣ Eliminar archivos obsoletos -->
+    <Delete Files="@(FilesToDelete)" />
+
+    <!-- 5️⃣ Copiar archivos nuevos o modificados -->
+    <Copy SourceFiles="@(FlxSATDocsFiles)"
+          DestinationFolder="$(FlxSATDocsDestination)\%(RecursiveDir)"
+          SkipUnchangedFiles="true" />
+  </Target>
+</Project>

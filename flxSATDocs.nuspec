@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>flxSATDocs</id>
+    <version>1.0.0.1</version>
+    <title>AHORA SAT Docs</title>
+    <authors>Ahora Freeware</authors>
+    <owners>Ahora Freeware</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>AHORA SAT Docs</description>
+    <copyright>Copyright © 2020 Ahora Freeware</copyright>
+    <projectUrl>http://flexygo.es</projectUrl>
+    <iconUrl>https://nuget.flexygo.com/isotipo.png</iconUrl>
+    <releaseNotes/>
+	<dependencies></dependencies>
+  </metadata>
+  <files>
+    <file src="docs\**\*.*" target="content\docs\" exclude="**\*.map" /> 
+	<file src="versions.json" target="content\versions.json" /> 
+  </files>
+</package>
