@@ -3,7 +3,7 @@ theme:
   name: material
   custom_dir: ./overrides/
   logo: docs_assets/images/logos/AHORA-white.svg # ← Your project logo here
-  favicon: docs_assets/images/logos/fl-favicon.ico # ← Your project favicon here
+  favicon: docs_assets/images/logos/Isotipo-AHORA.svg # ← Your project favicon here
   palette:
     - scheme: default
       toggle:
