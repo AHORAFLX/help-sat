@@ -35,6 +35,11 @@ Cuando ya está implantado y toca revisar incidencias o afinar comportamiento, e
 - [Acceso a la base de datos Flexygo App Offline](./FAQ/Acceso%20a%20la%20base%20de%20datos%20Flexygo%20App%20Offline.md)
 - [Depurar error en sincronización en Sat](./FAQ/Depurar%20error%20en%20sincronizaci%C3%B3n%20en%20Sat.md)
 
+## ¿Sabías que...?
+
+- [¿Sabías que desde la propia ficha del empleado puedes crear el usuario asociado o asignarle un almacén?](./Sab%C3%ADas%20que/Crear%20el%20usuario%20asociado%20o%20asignar%20un%20almac%C3%A9n%20desde%20la%20ficha%20del%20empleado.md)
+- [¿Sabías que puedes restringir la información que se envía a la aplicación offline?](./Sab%C3%ADas%20que/Restringir%20la%20informaci%C3%B3n%20que%20se%20env%C3%ADa%20a%20la%20aplicaci%C3%B3n%20offline.md)
+
 ## Recorrido recomendado
 
 1. Instalar el producto.
