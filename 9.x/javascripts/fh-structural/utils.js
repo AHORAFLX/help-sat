@@ -106,6 +106,22 @@ function navigateToFlexy(json, ctrlKey_pressed) {
     _nav();
 }
 
+function getAppBasePath() {
+    // Everything before "/docs" in the current URL.
+    let before_docs = window.location.href.slice(0, window.location.href.indexOf('/docs'));
+
+    // Products publish their docs inside their own app subfolder (e.g. wwwroot/sat/docs), one level
+    // below the app's real root — regardless of what base path the app itself happens to be hosted on
+    // (that depends purely on the domain/reverse-proxy setup, so it can't be inferred from the URL).
+    // Each project declares that known subfolder name via FH_DOCS_SUBFOLDER so we can strip it here.
+    // Flexygo itself doesn't set it: its docs live at the app's root, so nothing needs stripping.
+    if (typeof FH_DOCS_SUBFOLDER !== 'undefined' && FH_DOCS_SUBFOLDER && before_docs.endsWith('/' + FH_DOCS_SUBFOLDER)) {
+        before_docs = before_docs.slice(0, -(FH_DOCS_SUBFOLDER.length + 1));
+    }
+
+    return before_docs;
+}
+
 function isAFlexy() {
     const is_mkdocs = (window.location.hostname === 'localhost' ||
                         window.location.hostname === '127.0.0.1') &&
@@ -117,8 +133,7 @@ function _nav(url) {
     if (!url) {
         //We remove /docs from the path if we are in flexygo to get the correct base path
         if (isAFlexy()) {
-            url = window.location.href;
-            url = url.slice(0, url.indexOf('/docs')) + '/Index#' + btoa(JSON.stringify(current_navigation_url));
+            url = getAppBasePath() + '/Index#' + btoa(JSON.stringify(current_navigation_url));
         } else {
             url += getBasePath() + '/Index#' + btoa(JSON.stringify(current_navigation_url));
         }
