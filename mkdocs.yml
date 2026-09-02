@@ -65,6 +65,7 @@ extra_javascript:
   - javascripts/cultures/en.js
 
   # Your project js files here ↓
+  - javascripts/app-config.js
   - javascripts/delete/delete.js
 markdown_extensions:
   - toc:
