@@ -2,3 +2,43 @@
 .md-header__option:has(.md-select) {
   display: none;
 }
+
+/* Botones de flx-navbutton (procesos/acciones traídos de la ayuda de Flexygo) */
+.md-typeset flx-navbutton {
+  display: inline-block;
+  cursor: pointer;
+  margin: 0.3em 0;
+}
+
+.md-typeset flx-navbutton button.btn {
+  display: inline-block;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: .75rem;
+  padding: 10px 16px;
+  border-radius: 4px;
+  border: none;
+  color: #fff;
+  background-color: var(--fh-identity-color);
+  transition: filter 125ms;
+}
+
+.md-typeset flx-navbutton button.btn:hover {
+  filter: brightness(1.15);
+}
+
+.md-typeset flx-navbutton button.btn-outstanding { background-color: var(--fh-identity-color); }
+.md-typeset flx-navbutton button.btn-info { background-color: #2f8fd6; }
+.md-typeset flx-navbutton button.btn-tools { background-color: #6c757d; }
+.md-typeset flx-navbutton button.btn-success { background-color: #2e9e5b; }
+
+/* Hacer que los links se distingan mejor del resto del texto */
+.md-typeset a:not(.md-button, .button, flx-navbutton *) {
+  text-decoration: underline;
+  text-decoration-color: color-mix(in srgb, var(--md-typeset-a-color) 45%, transparent);
+  text-underline-offset: 2px;
+}
+
+.md-typeset a:not(.md-button, .button, flx-navbutton *):hover {
+  text-decoration-color: var(--md-accent-fg-color);
+}

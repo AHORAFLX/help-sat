@@ -107,9 +107,9 @@ function navigateToFlexy(json, ctrlKey_pressed) {
 }
 
 function isAFlexy() {
-    const is_mkdocs = (window.location.hostname === 'localhost' || 
+    const is_mkdocs = (window.location.hostname === 'localhost' ||
                         window.location.hostname === '127.0.0.1') &&
-                        window.location.port === '8000';
+                        (window.location.port === '8000' || window.location.port === '8001');
     return !is_mkdocs && !window.location.href.includes('ayuda.ahora.es');
 }
 

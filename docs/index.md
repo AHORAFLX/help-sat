@@ -6,39 +6,39 @@ Si lo que quieres es ver rápido el flujo real para el usuario final, te convien
 
 ## Accesos rápidos
 
-- [Cómo instalar el SAT de Flexygo](./FAQ/Como%20instalar%20el%20SAT%20de%20Flexygo.md)
-- [Pasos a seguir tras la instalación de SAT by flexygo](./FAQ/Pasos%20a%20seguir%20tras%20la%20instalaci%C3%B3n%20de%20SAT%20by%20flexygo.md)
-- [Compatibilidad del producto Sat by Flexygo con el ERP de Ahora](./FAQ/Compatibilidad%20del%20producto%20Sat%20by%20Flexygo%20con%20el%20ERP%20de%20Ahora.md)
-- [Nivel de compatibilidad de la base de datos](./FAQ/Nivel%20de%20compatibilidad%20de%20la%20base%20de%20datos.md)
+- [Cómo instalar el SAT de Flexygo](./M%C3%A1s%20informaci%C3%B3n/Preguntas%20frecuentes/Como%20instalar%20el%20SAT%20de%20Flexygo.md)
+- [Pasos a seguir tras la instalación de SAT by flexygo](./M%C3%A1s%20informaci%C3%B3n/Preguntas%20frecuentes/Pasos%20a%20seguir%20tras%20la%20instalaci%C3%B3n%20de%20SAT%20by%20flexygo.md)
+- [Compatibilidad del producto Sat by Flexygo con el ERP de Ahora](./M%C3%A1s%20informaci%C3%B3n/Preguntas%20frecuentes/Compatibilidad%20del%20producto%20Sat%20by%20Flexygo%20con%20el%20ERP%20de%20Ahora.md)
+- [Nivel de compatibilidad de la base de datos](./M%C3%A1s%20informaci%C3%B3n/Preguntas%20frecuentes/Nivel%20de%20compatibilidad%20de%20la%20base%20de%20datos.md)
 
 ## App Web
 
 Documentación pensada para entender la puesta en marcha y el comportamiento del entorno web.
 
-- [AHORA SAT - App Web - Configuración](./FAQ/AHORA%20SAT%20-%20App%20Web%20-%20Configuraci%C3%B3n.md)
-- [AHORA SAT - App Web - Entorno](./FAQ/AHORA%20SAT%20-%20App%20Web%20-%20Entorno.md)
-- [AHORA SAT - App Web - Funcionalidad](./FAQ/AHORA%20SAT%20-%20App%20Web%20-%20Funcionalidad.md)
+- [AHORA SAT - App Web - Configuración](./M%C3%A1s%20informaci%C3%B3n/Preguntas%20frecuentes/AHORA%20SAT%20-%20App%20Web%20-%20Configuraci%C3%B3n.md)
+- [AHORA SAT - App Web - Entorno](./M%C3%A1s%20informaci%C3%B3n/Preguntas%20frecuentes/AHORA%20SAT%20-%20App%20Web%20-%20Entorno.md)
+- [AHORA SAT - App Web - Funcionalidad](./M%C3%A1s%20informaci%C3%B3n/Preguntas%20frecuentes/AHORA%20SAT%20-%20App%20Web%20-%20Funcionalidad.md)
 
 ## App Móvil
 
 Bloque centrado en el uso funcional de la aplicación móvil y en los flujos habituales de trabajo.
 
-- [AHORA SAT - App móvil - Instalación y entorno](./FAQ/AHORA%20SAT%20-%20App%20m%C3%B3vil%20-%20Instalaci%C3%B3n%20y%20entorno.md)
-- [AHORA SAT - App móvil - Alcance funcional](./FAQ/AHORA%20SAT%20-%20App%20m%C3%B3vil%20-%20Alcance%20funcional.md)
-- [AHORA SAT - App móvil - Clientes](./FAQ/AHORA%20SAT%20-%20App%20m%C3%B3vil%20-%20Clientes.md)
-- [AHORA SAT - App móvil - Partes](./FAQ/AHORA%20SAT%20-%20App%20m%C3%B3vil%20-%20Partes.md)
+- [AHORA SAT - App móvil - Instalación y entorno](./M%C3%A1s%20informaci%C3%B3n/Preguntas%20frecuentes/AHORA%20SAT%20-%20App%20m%C3%B3vil%20-%20Instalaci%C3%B3n%20y%20entorno.md)
+- [AHORA SAT - App móvil - Alcance funcional](./M%C3%A1s%20informaci%C3%B3n/Preguntas%20frecuentes/AHORA%20SAT%20-%20App%20m%C3%B3vil%20-%20Alcance%20funcional.md)
+- [AHORA SAT - App móvil - Clientes](./M%C3%A1s%20informaci%C3%B3n/Preguntas%20frecuentes/AHORA%20SAT%20-%20App%20m%C3%B3vil%20-%20Clientes.md)
+- [AHORA SAT - App móvil - Partes](./M%C3%A1s%20informaci%C3%B3n/Preguntas%20frecuentes/AHORA%20SAT%20-%20App%20m%C3%B3vil%20-%20Partes.md)
 
 ## Soporte técnico
 
 Cuando ya está implantado y toca revisar incidencias o afinar comportamiento, estos artículos suelen ser los más útiles.
 
-- [Acceso a la base de datos Flexygo App Offline](./FAQ/Acceso%20a%20la%20base%20de%20datos%20Flexygo%20App%20Offline.md)
-- [Depurar error en sincronización en Sat](./FAQ/Depurar%20error%20en%20sincronizaci%C3%B3n%20en%20Sat.md)
+- [Acceso a la base de datos Flexygo App Offline](./M%C3%A1s%20informaci%C3%B3n/Preguntas%20frecuentes/Acceso%20a%20la%20base%20de%20datos%20Flexygo%20App%20Offline.md)
+- [Depurar error en sincronización en Sat](./M%C3%A1s%20informaci%C3%B3n/Preguntas%20frecuentes/Depurar%20error%20en%20sincronizaci%C3%B3n%20en%20Sat.md)
 
 ## ¿Sabías que...?
 
-- [¿Sabías que desde la propia ficha del empleado puedes crear el usuario asociado o asignarle un almacén?](./Sab%C3%ADas%20que/Crear%20el%20usuario%20asociado%20o%20asignar%20un%20almac%C3%A9n%20desde%20la%20ficha%20del%20empleado.md)
-- [¿Sabías que puedes restringir la información que se envía a la aplicación offline?](./Sab%C3%ADas%20que/Restringir%20la%20informaci%C3%B3n%20que%20se%20env%C3%ADa%20a%20la%20aplicaci%C3%B3n%20offline.md)
+- [¿Sabías que desde la propia ficha del empleado puedes crear el usuario asociado o asignarle un almacén?](./M%C3%A1s%20informaci%C3%B3n/Sab%C3%ADas%20que/%C2%BFSab%C3%ADas%20que%20desde%20la%20propia%20ficha%20del%20empleado%20puedes%20crear%20el%20usuario%20asociado%20o%20asignarle%20un%20almac%C3%A9n.md)
+- [¿Sabías que puedes restringir la información que se envía a la aplicación offline?](./M%C3%A1s%20informaci%C3%B3n/Sab%C3%ADas%20que/%C2%BFSab%C3%ADas%20que%20puedes%20restringir%20la%20informaci%C3%B3n%20que%20se%20env%C3%ADa%20a%20la%20aplicaci%C3%B3n%20offline.md)
 
 ## Recorrido recomendado
 

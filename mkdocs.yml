@@ -16,7 +16,6 @@ theme:
   language: es
   features:
     - navigation.path
-    - navigation.expand # Expanded sections in sidebar
     - navigation.sections # Section headers in sidebar
     - navigation.instant # Instant page loading (SPA-like)
     - navigation.tracking # Track active section in sidebar
