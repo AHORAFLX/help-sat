@@ -42,3 +42,22 @@
 .md-typeset a:not(.md-button, .button, flx-navbutton *):hover {
   text-decoration-color: var(--md-accent-fg-color);
 }
+
+/* Made the ¶ symbol not take any space */
+[dir="ltr"] .md-typeset {
+    h1, h2, h3, h4, h5 {
+        .headerlink {
+            width: 0;
+            margin: 0;
+        }
+    }
+}
+ 
+[dir="ltr"] .md-typeset {
+    h1, h2, h3, h4, h5 {
+        .headerlink::before {
+            content: "";
+            margin-left: .5rem;
+        }
+    }
+}
