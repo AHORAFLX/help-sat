@@ -93,6 +93,15 @@ header.md-header {
             border-radius: var(--fh-border-radius) var(--fh-border-radius) 0 0;
           }
         }
+
+        /* Keyboard shortcut hint replacing the search options icons */
+        .fh-search-shortcut {
+          user-select: none;
+          background: #ffffff36;
+          padding: 2px 5px;
+          border-radius: 5px;
+          font-weight: bold;
+        }
       }
 
       .md-search-result__meta {
@@ -579,4 +588,27 @@ html[lang="es"] .md-search-result__item:has(a[href*="/en/"]) {
   &::backdrop {
     backdrop-filter: blur(2px);
   }
+}
+
+/* Made the ¶ symbol and version tag not take any space on headings*/
+[dir="ltr"] .md-typeset {
+    h1, h2, h3, h4, h5 {
+        .headerlink {
+            width: 0;
+            margin: 0;
+        }
+
+        .fh-version-tag {
+          position: absolute;
+        }
+    }
+}
+
+[dir="ltr"] .md-typeset {
+    h1, h2, h3, h4, h5 {
+        .headerlink::before {
+            content: "";
+            margin-left: .5rem;
+        }
+    }
 }
