@@ -2,3 +2,6 @@
 
 El nuevo asistente de partes offline Gracia, permitirá a los técnicos interactuar, guiar y ayudar en la elaboración y gestión de los partes offline.
 Por ejemplo se podrá indicar el nombre del cliente, la descripción del parte y la máquina para que el asistente genere automáticamente el parte.
+
+!!! tip "¿Prefieres usar tu propio asistente?"
+    También puedes conectar al SAT tu asistente de IA de siempre (Claude, ChatGPT, Gemini…): ver [Asistentes de IA (MCP)](../../Ayuda/Asistentes%20de%20IA%20(MCP).md).

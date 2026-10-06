@@ -28,6 +28,13 @@ Bloque centrado en el uso funcional de la aplicación móvil y en los flujos hab
 - [AHORA SAT - App móvil - Clientes](./M%C3%A1s%20informaci%C3%B3n/Preguntas%20frecuentes/AHORA%20SAT%20-%20App%20m%C3%B3vil%20-%20Clientes.md)
 - [AHORA SAT - App móvil - Partes](./M%C3%A1s%20informaci%C3%B3n/Preguntas%20frecuentes/AHORA%20SAT%20-%20App%20m%C3%B3vil%20-%20Partes.md)
 
+## Integraciones
+
+Para conectar el SAT con otras aplicaciones o con tu asistente de IA.
+
+- [Web API](./Ayuda/Web%20API.md)
+- [Asistentes de IA (MCP)](./Ayuda/Asistentes%20de%20IA%20(MCP).md)
+
 ## Soporte técnico
 
 Cuando ya está implantado y toca revisar incidencias o afinar comportamiento, estos artículos suelen ser los más útiles.
@@ -39,6 +46,7 @@ Cuando ya está implantado y toca revisar incidencias o afinar comportamiento, e
 
 - [¿Sabías que desde la propia ficha del empleado puedes crear el usuario asociado o asignarle un almacén?](./M%C3%A1s%20informaci%C3%B3n/Sab%C3%ADas%20que/%C2%BFSab%C3%ADas%20que%20desde%20la%20propia%20ficha%20del%20empleado%20puedes%20crear%20el%20usuario%20asociado%20o%20asignarle%20un%20almac%C3%A9n.md)
 - [¿Sabías que puedes restringir la información que se envía a la aplicación offline?](./M%C3%A1s%20informaci%C3%B3n/Sab%C3%ADas%20que/%C2%BFSab%C3%ADas%20que%20puedes%20restringir%20la%20informaci%C3%B3n%20que%20se%20env%C3%ADa%20a%20la%20aplicaci%C3%B3n%20offline.md)
+- [¿Sabías que puedes conectar el SAT con otras aplicaciones y con tu asistente de IA?](./M%C3%A1s%20informaci%C3%B3n/Sab%C3%ADas%20que/%C2%BFSab%C3%ADas%20que%20puedes%20conectar%20el%20SAT%20con%20otras%20aplicaciones%20y%20con%20tu%20asistente%20de%20IA.md)
 
 ## Recorrido recomendado
 
