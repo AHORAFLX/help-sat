@@ -13,7 +13,7 @@ La API es la de Flexygo y sigue el estándar **OpenAPI**: la definición complet
 
 | Qué se puede hacer | Objetos |
 |---|---|
-| **Consultar, crear, modificar y borrar** | Partes de trabajo (`sat_Parte`), material (`sat_Material`), vehículos (`sat_Vehiculo`), almacenes (`sat_Almacen`), la configuración de checklists (`sat_Checklist_Config`, sus valores `sat_Checklist_Values_Config` y a qué se aplica cada una `sat_Checklist_Config_Relation`) y los documentos e imágenes adjuntos del ERP (`AHORA_Documento`, `AHORA_Imagen`) |
+| **Consultar, crear, modificar y borrar** | Partes de trabajo (`sat_Parte`), material (`sat_Material`), vehículos (`sat_Vehiculo`), almacenes (`sat_Almacen`) y la configuración de checklists (`sat_Checklist_Config`, sus valores `sat_Checklist_Values_Config` y a qué se aplica cada una `sat_Checklist_Config_Relation`) |
 | **Consultar y modificar** | Técnicos (`sat_Empleado`) |
 | **Solo consultar** | Las líneas del parte: mano de obra (`sat_Parte_MO`), material (`sat_Parte_Material`), números de serie (`sat_Parte_Material_Ubic`) y desplazamientos (`sat_Parte_Desplazamiento`); la firma (`sat_Firma`), los valores de checklist (`sat_Parte_Checklist_Value`) y las notificaciones (`sat_Parte_Notificacion`) del parte; clientes (`sat_Cliente`), contactos (`sat_Contacto`), notas de cliente (`sat_Clientes_Nota`) y envíos de material (`sat_Envio`) |
 
