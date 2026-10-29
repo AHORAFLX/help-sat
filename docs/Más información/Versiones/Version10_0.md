@@ -25,3 +25,7 @@ AHORA SAT pasa a ejecutarse sobre Flexygo 10 y .NET 9. La aplicación incorpora 
 ### Ayuda
 
 - **Documentación integrada:** puedes consultar la nueva documentación de AHORA SAT desde la ayuda de la aplicación.
+
+### En actualizaciones posteriores
+
+- **Ayuda:** La ayuda integrada se publica junto con la aplicación.
