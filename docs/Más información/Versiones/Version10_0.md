@@ -29,3 +29,4 @@ AHORA SAT pasa a ejecutarse sobre Flexygo 10 y .NET 9. La aplicación incorpora 
 ### En actualizaciones posteriores
 
 - **Ayuda:** La ayuda integrada se publica junto con la aplicación.
+- **Instalación:** Puedes desplegar la base de datos de AHORA SAT en Docker con SQL Server Express.
