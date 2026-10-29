@@ -10,7 +10,8 @@ La aplicación estrena una nueva interfaz y mejoras de actualización, seguridad
 
 ### Instalación
 
-- **Puedes desplegar AHORA SAT mediante imágenes Docker.** La configuración incorpora Docker Compose y archivos Docker para la aplicación, el servidor y la base de datos de configuración. También excluye contenido innecesario al preparar las imágenes, que puedes generar para desplegar el servicio.
+- **La base de datos de configuración ya no se restaura al reiniciar su contenedor.** Así se evita que el inicio vuelva a modificar la configuración que obliga al administrador a cambiar la contraseña.
+- **Puedes desplegar AHORA SAT mediante imágenes Docker, con archivos para la aplicación y sus bases de datos.** La configuración incluye Docker Compose y archivos Docker para la aplicación, la parte de servidor y las bases de datos. También permite excluir contenido innecesario al preparar las imágenes.
 
 ## Mejoras
 
