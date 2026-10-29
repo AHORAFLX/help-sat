@@ -1,0 +1,82 @@
+fh-versions {
+    color: white;
+    font-size: 0.8rem;
+
+    height: var(--header-height);
+    display: flex;
+    align-items: center;
+
+    width: 45px; /* So the hitbox is bigger */
+
+    &:hover, &.open {
+        .fh-versions-versions {
+            display: block;
+        }
+    }
+
+    .fh-versions-current {
+        display: flex;
+        align-items: center;
+
+        &::after {
+            content: '▼';
+            font-size: 0.6em;
+            margin-left: 8px;
+        }
+    }
+
+    .fh-versions-versions {
+        font-weight: bold;
+        display: none;
+        border-radius: var(--fh-border-radius);
+
+        position: absolute;
+        top: var(--header-height);
+        left: 97px;
+        z-index: 1;
+
+        padding: 18px 12px;
+        color: var(--md-typeset-color);
+
+        background-color: var(--fh-color-section);
+
+        box-shadow: var(--fh-module-boxshadow);
+
+        .fh-versions-version {
+            cursor: pointer;
+            padding: 5px 90px 5px 9px;
+            border-bottom: 1px solid var(--fh-color-border);
+            
+            &:hover {
+                color: var(--fh-identity-color);
+            }
+
+            &:last-child {
+                border-bottom: none;
+            }
+        }
+
+        .current {
+            color: var(--fh-identity-color);
+        }
+
+        &:has(.fh-versions-version:hover:not(.current)) .current {
+            color: var(--md-typeset-color);
+        }
+    }
+
+}
+
+header fh-versions {
+    margin-left: 97px;
+}
+
+@media screen and (min-width: 76.2344em) {
+    header fh-versions {
+        display: none;
+    }
+}
+
+.md-version {
+    display: none;
+}
