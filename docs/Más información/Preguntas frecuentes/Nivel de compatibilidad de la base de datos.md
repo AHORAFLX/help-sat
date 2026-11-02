@@ -6,7 +6,7 @@ No es raro tener bases de datos con un nivel de compatibilidad que no coincida c
 
 Tener un nivel de compatibilidad antiguo nos priva de numerosas mejoras a nivel de rendimiento y herramientas de programación.
 
-* Para el correcto funcionamiento de SAT by flexygo, es necesario cambiar el nivel de compatibilidad de la base de datos ERP para que puedan funcionar las storeds de sincronización de datos entre los dispositivos móviles, ya que éstas utilizan herramientas de desarrollo presentes en la versión de motor de base de datos 2016.
+* Para el correcto funcionamiento de SAT by flexygo, es necesario cambiar el nivel de compatibilidad de la base de datos ERP para que puedan funcionar las storeds de sincronización de datos entre los dispositivos móviles, ya que éstas utilizan herramientas de desarrollo presentes a partir de la versión de motor de base de datos 2016 (nivel 130). A partir de la versión 10, las bases de datos deben estar en SQL Server 2022 o superior, así que se recomienda el nivel de compatibilidad 160 (SQL Server 2022).
 
 Pasos a seguir para cambiar el nivel de compatibilidad de una base de datos
 
@@ -36,6 +36,9 @@ T-SQL
     --110 = SQL Server 2012
     --120 = SQL Server 2014
     --130 = SQL Server 2016
+    --140 = SQL Server 2017
+    --150 = SQL Server 2019
+    --160 = SQL Server 2022
     
 
 ```sql
@@ -49,12 +52,12 @@ select name, compatibility_level
 
 CAMBIAR EL NIVEL DE COMPATIBILIDAD DE LA BASE DE DATOS
 
-ALTER DATABASE database_name SET COMPATIBILITY_LEVEL = { 150 | 140 | 130 | 120 | 110 | 100 | 90  }
+ALTER DATABASE database_name SET COMPATIBILITY_LEVEL = { 160 | 150 | 140 | 130 | 120 | 110 | 100 | 90  }
 
   
 
     
     
     --Ejemplo
-    ALTER DATABASE AHORA_ERP SET COMPATIBILITY_LEVEL = 130
+    ALTER DATABASE AHORA_ERP SET COMPATIBILITY_LEVEL = 160
 ```
