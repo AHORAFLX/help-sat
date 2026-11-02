@@ -14,7 +14,7 @@ Debe estar instalado, con la característica **WebSocket** habilitada. Si no est
 
   2. Microsoft SQL Server
 
-Se requiere SQL Server 2022 o superior. A partir de la versión 10, las bases de datos de la aplicación deben estar en un servidor SQL Server 2022 o posterior. Consulte el manual en la base de conocimiento de AHORA para instrucciones detalladas sobre la configuración del servidor, especialmente la intercalación compatible con AHORA ERP.
+Se requiere SQL Server 2017 o superior. A partir de la versión 10, las bases de datos de la aplicación deben estar en un servidor SQL Server 2017 o posterior. Consulte el manual en la base de conocimiento de AHORA para instrucciones detalladas sobre la configuración del servidor, especialmente la intercalación compatible con AHORA ERP.
 
   3. .NET Hosting Bundle
 
